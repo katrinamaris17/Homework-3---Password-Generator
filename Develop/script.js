@@ -1,4 +1,5 @@
 // Assignment Code
+
 const generateButton = document.getElementById('generate')
 generateButton.addEventListener('click', writePassword)
 
@@ -54,15 +55,15 @@ var lowers = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "
     characters = characters.concat(specialCharacters)
   }
 
-    //empty string variable for the for loop below
-  var randomPasswordGenerated = "";
+ 
+  var randomPasswordGenerated = [];
 
   console.log(characters)
   console.log(passwordLength)
 
   for(let i = 0; i < passwordLength; i++) {
     var randomNumberPicked = Math.floor(Math.random()*characters.length);
-    randomPasswordGenerated.concat(characters[randomNumberPicked]);
+    randomPasswordGenerated.push(characters[randomNumberPicked]);
   }
 
   return randomPasswordGenerated;
