@@ -15,5 +15,5 @@ PROCESS:
 
 * I then created a randomPasswordGenerated array which gets applied into the for loop beneath it to generate a random set of a characters which then result into the random password generated.  
 
-####Final Product Image:
-![Final Product](./Assets/screenshots.png)
+*** FINAL PRODUCT IMAGES ***
+![Final Product](./Assets/screenshot.png)
